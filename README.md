@@ -1,4 +1,5 @@
 # HASH_crack
 
-> Hash compare with dico<
-> Hash brute force
+## Hash compare with a dico
+
+## Hahh bruteforce
