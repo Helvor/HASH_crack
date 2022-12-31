@@ -11,7 +11,7 @@ for example -> `crunch 1 5 -o dico`
 
 To create the hash with **openssl** : `echo TEXT | openssl dgst -sha3-512`
 
-While using the big dico file *rockyou.txt*, the encoding `utf-8` doesn't work but you can replace it with `latin-1`
+While using the big dico file *rockyou.txt*, the encoding `utf-8` doesn't work but i replace it with `latin-1`
 
 ## Hash bruteforce
 
