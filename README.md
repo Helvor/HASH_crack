@@ -4,6 +4,8 @@
 
 *I'm using sha3-512 for the example but you can do it with other cipher*
 
+---
+
 ## Hash compare with a dico
 
 To create the dico : `crunch MIN MAX CARACTER -o FILE_OUTPUT`
@@ -16,3 +18,5 @@ To create the hash with **openssl** : `echo TEXT | openssl dgst -sha3-512`
 Only using the small letters for this one but you can add the capital, number and special character if you want
 
 To create the hash with **openssl** : `echo TEXT | openssl dgst -sha3-512`
+
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
