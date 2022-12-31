@@ -2,7 +2,7 @@
 
 > Don't forget to install/update openssl, crunch and python3
 
-I'm using sha3-512 for the example but you can do it with other cipher
+*I'm using sha3-512 for the example but you can do it with other cipher*
 
 ## Hash compare with a dico
 
