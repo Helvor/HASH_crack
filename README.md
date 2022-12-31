@@ -1,4 +1,4 @@
-# HASH_crack
+# Hash crack
 
 > Don't forget to install/update openssl, crunch and python3
 
@@ -15,7 +15,7 @@ While using the big dico file *rockyou.txt*, the encoding `utf-8` doesn't work b
 
 ## Hash bruteforce
 
-Inspired by <https://github.com/IceroDev/Bruteforce-SHA3-512/blob/main/bruteforce.py >
+Inspired by [this repo](https://github.com/IceroDev/Bruteforce-SHA3-512/blob/main/bruteforce.py) 
 
 Only using the small letters for this one but you can add the capital, number and special character if you want
 
