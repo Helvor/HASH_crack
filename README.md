@@ -18,5 +18,3 @@ To create the hash with **openssl** : `echo TEXT | openssl dgst -sha3-512`
 Only using the small letters for this one but you can add the capital, number and special character if you want
 
 To create the hash with **openssl** : `echo TEXT | openssl dgst -sha3-512`
-
-![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
