@@ -4,8 +4,6 @@
 
 *I'm using sha3-512 for the example but you can do it with other cipher*
 
----
-
 ## Hash compare with a dico
 
 To create the dico : `crunch MIN MAX CARACTER -o FILE_OUTPUT`
