@@ -15,6 +15,8 @@ While using the big dico file *rockyou.txt*, the encoding `utf-8` doesn't work b
 
 ## Hash bruteforce
 
+Inspired by <https://github.com/IceroDev/Bruteforce-SHA3-512/blob/main/bruteforce.py >
+
 Only using the small letters for this one but you can add the capital, number and special character if you want
 
 To create the hash with **openssl** : `echo TEXT | openssl dgst -sha3-512`
