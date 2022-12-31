@@ -2,7 +2,7 @@
 
 ## Hash compare with a dico
 
->> Don't forget to install/update openssl, crunch and python3
+> Don't forget to install/update openssl, crunch and python3
 
 To create the dico : `crunch MIN MAX CARACTER -o FILE_OUTPUT`
 for example -> `crunch 1 5 -o dico`
