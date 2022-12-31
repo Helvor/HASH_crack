@@ -2,4 +2,4 @@
 
 ## Hash compare with a dico
 
-## Hahh bruteforce
+## Hash bruteforce
