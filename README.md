@@ -22,3 +22,10 @@ Inspired by [this repo](https://github.com/IceroDev/Bruteforce-SHA3-512/blob/mai
 Only using the small letters for this one but you can add the capital, number and special character if you want
 
 To create the hash with **openssl** : `echo TEXT | openssl dgst -sha3-512`
+
+## Rainbow table atack
+
+using [project rainbowcrack](http://project-rainbowcrack.com/index.htm) 
+
+*rtgen* : create the rainbow table with `./rtgen hash_agorithm charset plaintext_len_min plaintext_len_max table_index chain_len chain_num part_index`
+example -> `./rtgen sha1 loweralpha 1 4 0 1024 8388608 0` to create a rainbow table with 4 lower letter lenght
