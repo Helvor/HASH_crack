@@ -33,4 +33,4 @@ example -> `./rtgen sha1 loweralpha 1 4 0 1024 8388608 0` to create a rainbow ta
 *rtsort* : sort the hash with `./rtsort [FILE PATH]`
 
 *rcrack* : crack the hash with `./rcrack path -h hash` for single hash and if you want to use the rainbow table create just before `./rcrack path -l [HASH LIST]`
-example -> `./rcrack file1 -l sha1_loweralpha#1-4_0_1024x8388608_0.rt`
+example -> `./rcrack sha1_loweralpha#1-4_0_1024x8388608_0.rt -l file1`
