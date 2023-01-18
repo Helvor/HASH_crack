@@ -29,3 +29,8 @@ using [project rainbowcrack](http://project-rainbowcrack.com/index.htm)
 
 *rtgen* : create the rainbow table with `./rtgen hash_agorithm charset plaintext_len_min plaintext_len_max table_index chain_len chain_num part_index`
 example -> `./rtgen sha1 loweralpha 1 4 0 1024 8388608 0` to create a rainbow table with 4 lower letter lenght
+
+*rtsort* : sort the hash with `./rtsort [FILE PATH]`
+
+*rcrack* : crack the hash with `./rcrack path -h hash` for single hash and if you want to use the rainbow table create just before `./rcrack path -l [HASH LIST]`
+example -> `./rcrack file1 -l sha1_loweralpha#1-4_0_1024x8388608_0.rt`
