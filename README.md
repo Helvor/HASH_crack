@@ -3,8 +3,8 @@
 > Don't forget to install/update openssl, crunch and python3
 
 *I'm using sha3-512 for the example but you can do it with other cipher*
->to change the cipher, hashlib has this list : `*sha1(), sha224(), sha256(), sha384(), sha512(), blake2b(), and blake2s(). md5()` is normally available too*
->but if you have openSSL : `*sha3_224(), sha3_256(), sha3_384(), sha3_512(), shake_128(), shake_256()` are also available*
+>to change the cipher, hashlib has this list : `sha1(), sha224(), sha256(), sha384(), sha512(), blake2b(), and blake2s(). md5()` *is normally available too*
+>but if you have openSSL : `sha3_224(), sha3_256(), sha3_384(), sha3_512(), shake_128(), shake_256()` *are also available*
 
 ## Hash compare with a dico
 
